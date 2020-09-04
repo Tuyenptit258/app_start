@@ -7,7 +7,7 @@ const path = require('path')
 //    res.sendfile(duongDanFile)
 //})
 ap.get('/',function(req,res){
-    res.json('hello')
+    res.json('hello ban')
 })
 
 ap.listen(process.env.PORT, function(req,res){
